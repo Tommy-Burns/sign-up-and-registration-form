@@ -9,6 +9,7 @@
 body {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: #4070f4;
@@ -106,3 +107,29 @@ form .text h3 a {
 form .text h3 a:hover {
     text-decoration: underline;
 }
+
+.policy input {
+    cursor: pointer;
+}
+
+.credit{
+    margin-top: 2rem;
+}
+
+.credit h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.credit h4 a {
+    text-decoration: none;
+    color: rgb(1, 255, 192);
+}
+
+.credit h4 a:hover {
+    text-decoration: underline;
+    color: rgb(1, 255, 200);
+}
+
